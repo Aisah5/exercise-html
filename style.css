@@ -62,8 +62,6 @@ HEADER 2
   
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
     background-color: #333;
     position :fixed;
@@ -89,33 +87,85 @@ ul {
 /* ////////////////////////
 CSS WRAPPER
 //////////////////////// */
-
-
-  .top-wrapper {
-    padding: 300px;
-    background: url(bgb.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: block;
-    color: white;
-  }
+.top-wrapper {
   
-  .containers {
-    position: absolute;
-    transform: translate(-50%,-50%);
+  padding: 250px;
+  background: url(top.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.containers {
+  position: absolute;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  
+  top: 35%;
+  left: 70%;
+}
+
+.top-wrapper h1 {
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+
+
+/* ////////////////////////
+CSS KONTEN
+//////////////////////// */
+.konten {
+  text-align: center;
+  background: #FFFAFA;
+  padding: 50px;
+}
+
+
+/* ////////////////////////
+CSS WRAPPER
+//////////////////////// */
+
+.extra-satu {
+  text-align: center;
+  background: rgb(30, 30, 46);
+  padding: 100px;
+  color: white;
+}
+
+
+
+
+
+/*--------------------------------------------------------------
+# Resume
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+# FOOter
+--------------------------------------------------------------*/
+footer {
+  height: 100px;
+  width: 100%;
+  background-color: black;
+  bottom: 0;
+
+  text-align: center;
+}
+
+  .footer h2 {
+    padding-top: 10px;
+    font-family: cursive;
     text-align: center;
-    top: 50%;
-    left: 70%;
+    color: #FFFAFA;
+
   }
-  
-  .top-wrapper h1 {
-    opacity: 0.7;
-    font-size: 45px;
-    letter-spacing: 5px;
-    margin-bottom: 10px;
-  }
-  
-  .top-wrapper p {
-    opacity: 0.7;
-    margin-bottom: 3px;
+
+  .footer p {
+    text-align: center;
+    color: #FFFAFA;
+
   }
